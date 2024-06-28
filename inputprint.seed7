@@ -1,0 +1,8 @@
+const proc: main is func
+  local
+    var string: input is "";
+  begin
+    writeln("Enter some text: ");
+    input := readln();
+    writeln("You entered: ", input);
+  end func;

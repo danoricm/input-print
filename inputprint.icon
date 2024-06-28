@@ -1,0 +1,6 @@
+# inputprint.icon
+procedure main()
+    write("Enter some text: ")
+    input := read()
+    write("You entered: ", input)
+end

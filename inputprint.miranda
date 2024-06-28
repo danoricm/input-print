@@ -1,0 +1,2 @@
+|| inputprint.miranda
+main = putStrLn "Enter some text: " >> getLine >>= \input -> putStrLn ("You entered: " ++ input)

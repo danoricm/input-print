@@ -1,0 +1,9 @@
+# inputprint.spl
+PROGRAM
+    VAR
+        input : STRING;
+    BEGIN
+        WRITE("Enter some text: ");
+        READLN(input);
+        WRITELN("You entered: ", input);
+    END.

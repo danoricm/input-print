@@ -1,0 +1,4 @@
+// inputprint.falcon
+> "Enter some text: "
+input = > stdio.readLine()
+> "You entered: ", input

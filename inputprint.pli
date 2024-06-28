@@ -1,0 +1,6 @@
+/* inputprint.pli */
+DCL INPUT CHAR(100);
+
+PUT LIST('Enter some text: ');
+GET LIST(INPUT);
+PUT LIST('You entered: ', INPUT);

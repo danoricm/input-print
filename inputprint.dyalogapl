@@ -1,0 +1,3 @@
+⍝ inputprint.dyalogapl
+'Enter some text: ' ⎕← input ← ⍞
+'You entered: ' , input

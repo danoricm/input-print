@@ -1,0 +1,4 @@
+// inputprint.nut
+print("Enter some text: ");
+local input = stdin.readLine();
+print("You entered: " + input);

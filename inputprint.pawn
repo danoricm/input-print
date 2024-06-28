@@ -1,0 +1,6 @@
+// inputprint.p
+new input[100];
+
+print("Enter some text: ");
+input = getchar();
+print("You entered: ", input);
